@@ -1,0 +1,17 @@
+.main-container {
+    background: url("../../../assets/images/landing-bg.jpg");
+}
+.startedBtn { 
+    background-color: #ffff;
+    border: 1px solid;
+    transition: 0.8s ease;
+    border-radius: 20px !important;
+}
+
+
+.startedBtn:hover {
+    color: white !important;
+    background: transparent;
+    border: 1px solid;
+    transition: 0.8s ease;
+}

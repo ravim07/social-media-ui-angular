@@ -1,0 +1,11 @@
+.header-container {
+  background: #ff5a00e6;
+  height: 80px;
+}
+.img-container {
+    /* border: 2px solid #ffff; */
+    width: max-content;
+    background: #ffff;
+    height: 85%;
+    border-radius: 6px;
+}

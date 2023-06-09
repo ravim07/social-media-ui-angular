@@ -1,0 +1,64 @@
+.main-container {
+  background: url("../../../assets/images/landing-bg.jpg");
+}
+
+.loginForm {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #ffff;
+  width: 500px;
+  height: 400px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.loginBtn {
+  background-color: #f84222f5;
+  border: 1px solid;
+  transition: 0.8s ease;
+  border-radius: 20px !important;
+  color: #ffff;
+  width: 100%;
+}
+
+.loginBtn:hover {
+  color: #f84222f5 !important;
+  background: transparent;
+  border: 1px solid #f84222f5;
+  transition: 0.8s ease;
+}
+.loginBtn:disabled {
+  color: #ffff;
+}
+.loginContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.loginH1 {
+  font-weight: 500;
+}
+
+.example-container mat-form-field + mat-form-field {
+  margin-left: 8px;
+}
+
+.example-right-align {
+  text-align: right;
+}
+
+.anchorTag {
+  font-weight: 600;
+  color: #007aff;
+  cursor: pointer;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
